@@ -27,3 +27,5 @@ export const Tooltip = ({ children, textTooltip }: TooltipProps) => {
     </TooltipPrimitive.Provider>
   )
 }
+
+Tooltip.displayName = 'Tooltip'

@@ -52,3 +52,5 @@ export const Toast = ({
     </ToastPrimitive.Provider>
   )
 }
+
+Toast.displayName = 'Toast'
